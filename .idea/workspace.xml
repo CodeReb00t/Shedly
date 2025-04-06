@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="In Progress" />
+    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="In Progress">
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/projectController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controllers/taskController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/projectRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/prisma/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/prisma/seed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -33,7 +45,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2vAtHnO8rZ4ASQFlwCgx7W7z5Ov" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -51,7 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\InterimTime\\Projects 0_0\\project_management\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -74,6 +86,9 @@
       <workItem from="1743599623280" duration="15007000" />
       <workItem from="1743736815124" duration="1344000" />
       <workItem from="1743785417762" duration="4385000" />
+      <workItem from="1743864575746" duration="1940000" />
+      <workItem from="1743921426881" duration="1798000" />
+      <workItem from="1743944393081" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="In Progress">
       <option name="closed" value="true" />
@@ -97,7 +112,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
     <MESSAGE value="In Progress" />
     <option name="LAST_COMMIT_MESSAGE" value="In Progress" />
   </component>

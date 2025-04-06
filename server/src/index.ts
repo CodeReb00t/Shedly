@@ -4,9 +4,13 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
+import projectRoutes from "./routes/projectRoutes";
+import taskRoutes from "./routes/taskRoutes";
 
 // RouteImports
+
 // Configurations
+
 dotenv.config();
 const app = express();
 app.use(express.json())
@@ -16,11 +20,15 @@ app.use(morgan("common"))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
+
+
 // ROUTES
 app.get('/', (req, res) => {
     res.send('This is Home Route')
 })
 
+app.use("/projects",projectRoutes)
+app.use("/tasks",taskRoutes)
 
 //Server
 const port=process.env.PORT || 3000;
