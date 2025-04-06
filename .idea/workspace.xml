@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="In Progress">
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/projectController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/taskController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/projectRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="6-04-2025">
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Navbar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Sidebar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/prisma/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/prisma/seed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\InterimTime\Projects 0_0\project_management\client\src\app" />
+      <recent name="D:\InterimTime\Projects 0_0\project_management\client\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,7 +91,8 @@
       <workItem from="1743785417762" duration="4385000" />
       <workItem from="1743864575746" duration="1940000" />
       <workItem from="1743921426881" duration="1798000" />
-      <workItem from="1743944393081" duration="3792000" />
+      <workItem from="1743944393081" duration="6360000" />
+      <workItem from="1743957290462" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="In Progress">
       <option name="closed" value="true" />
@@ -106,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743785495067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6-04-2025">
+      <option name="closed" value="true" />
+      <created>1743948510131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743948510132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +152,8 @@
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
     <MESSAGE value="In Progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="In Progress" />
+    <MESSAGE value="6-04-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-04-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

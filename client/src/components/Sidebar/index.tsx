@@ -18,6 +18,7 @@ import {usePathname} from "next/navigation";
 import {useAppDispatch, useAppSelector} from "@/app/redux";
 import Link from "next/link";
 import {setIsSidebarCollapsed} from "@/state";
+import {useGetProjectsQuery} from "@/state/api";
 
 interface SidebarLinkProps {
     href:string;
@@ -53,6 +54,10 @@ const SidebarLink = ({
 const Sidebar = () => {
     const [showProjects, setShowProjects] = useState(true)
     const [showPriority, setShowPriority] = useState(true)
+
+    const { data: projects } = useGetProjectsQuery()
+
+
     const dispatch =useAppDispatch()
     const isSidebarCollapsed = useAppSelector((state) => state.global.isSidebarCollapsed);
     const sidebarClassNames=`fixed flex flex-col h-[100%] justify-between shadow-xl
@@ -107,6 +112,9 @@ const Sidebar = () => {
                     ) : <ChevronDown className="h-5 w-5"/>}
                 </button>
                 {/*PROJECTS LIST*/}
+                { showProjects && projects?.map((project) => (
+                    <SidebarLink href={`/projects/${project.id}`} icon={Briefcase} label={project.name} key={project.id} />
+                ))}
                 {/*PRIORITIES LINKS*/}
                 <button
                     onClick={() => setShowPriority((prev) => !prev)}
@@ -124,7 +132,7 @@ const Sidebar = () => {
                         <SidebarLink href="/priority/medium" icon={AlertTriangle} label="Medium"/>
                         <SidebarLink href="/priority/low" icon={AlertOctagon} label="Low"/>
                         <SidebarLink href="/priority/backlog" icon={Layers3} label="Backlog"/>
-
+                    </>
                 )}
             </div>
         </div>
