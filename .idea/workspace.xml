@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="6-04-2025">
+    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="7-04-2025">
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +49,21 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\InterimTime\\Projects 0_0\\project_management\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/InterimTime/Projects 0_0/project-management-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "D:\\InterimTime\\Projects 0_0\\project_management\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\InterimTime\Projects 0_0\project_management\client\src\app" />
@@ -91,6 +93,7 @@
       <workItem from="1743944393081" duration="6360000" />
       <workItem from="1743957290462" duration="1656000" />
       <workItem from="1744023359200" duration="1516000" />
+      <workItem from="1744045003996" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="In Progress">
       <option name="closed" value="true" />
@@ -124,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743958776547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7-04-2025">
+      <option name="closed" value="true" />
+      <created>1744045087305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744045087305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +170,8 @@
     </ignored-roots>
     <MESSAGE value="In Progress" />
     <MESSAGE value="6-04-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-04-2025" />
+    <MESSAGE value="7-04-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-04-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,7 +2,7 @@
 
 import {useState} from "react";
 import Header from "@/components/Header";
-import {Grid3x3} from "lucide-react";
+import {Clock, Filter, Grid3x3, List, Share2, Table} from "lucide-react";
 
 type Props = {
     activeTab:string;
@@ -20,7 +20,46 @@ const ProjectHeader = ({activeTab,setActiveTab}: Props) => {
             {/*TABS*/}
             <div className="flex flex-wrap-reverse gap-2 border-y border-gray-200 pb-[8px] pt-2 md:items-center">
                 <div className="flex flex-1 items-center gap-2 md:gap-4">
-                    <TabButton name="Board" icon={<Grid3x3 />} setActiveTab={} activeTab={}/>
+                    <TabButton
+                        name="Board"
+                        icon={<Grid3x3 className="h-5 w-5"  />}
+                        setActiveTab={setActiveTab}
+                        activeTab={activeTab}
+                    />
+                    <TabButton
+                        name="List"
+                        icon={<List className="h-5 w-5"  />}
+                        setActiveTab={setActiveTab}
+                        activeTab={activeTab}
+                    />
+                    <TabButton
+                        name="Timeline"
+                        icon={<Clock className="h-5 w-5"  />}
+                        setActiveTab={setActiveTab}
+                        activeTab={activeTab}
+                    />
+                    <TabButton
+                        name="Table"
+                        icon={<Table className="h-5 w-5"  />}
+                        setActiveTab={setActiveTab}
+                        activeTab={activeTab}
+                    />
+                </div>
+                <div className="flex items-center gap-2">
+                    <button className="text-gray-500 hover:text-gray-600">
+                        <Filter className="h-5 w-5"/>
+                    </button>
+                    <button className="text-gray-500 hover:text-gray-600">
+                        <Share2 className="h-5 w-5"/>
+                    </button>
+                    <div className="relative">
+                        <input
+                            type="text"
+                            placeholder="Search Task"
+                            className="rounded-md border py-1 pl-10 pr-4 focus:outline-none"
+                        />
+                        <Grid3x3 className="absolute left-3 top-2 h-4 w-4 text-gray-400" />
+                    </div>
                 </div>
             </div>
         </div>
