@@ -112,6 +112,7 @@ const Task = ({task}: TaskProps) => {
         })
     }))
     const taskTagsSplit = task.tags ? task.tags.split(",") : []
+
     const formattedStartDate = task.startDate ? format(new Date(task.startDate), "P") : ""
     const formattedDueDate = task.dueDate ? format(new Date(task.dueDate), "P") : ""
     const numberOfComments = (task.comments && task.comments.length) || 0
