@@ -146,7 +146,58 @@ const Task = ({task}: TaskProps) => {
                 <div className="flex items-start justify-between">
                     <div className="flex flex-wrap flex-1 items-center gap-2">
                         {task.priority && <PriorityTag priority={task.priority} />}
+                        <div className="flex gap-2">
+                            {taskTagsSplit.map(tag => (
+                                <div key={tag} className="rounded-full bg-blue-100 px-2 py-1 text-xs">
+                                    {" "}
+                                    {tag}
+                                </div>
+                            ))}
+                        </div>
                     </div>
+                    <button className="flex h-6 w-4 flex-shrink-0 items-center justify-center">
+                        <EllipsisVertical size={26}/>
+                    </button>
+                </div>
+                <div className="my-3 flex justify-between">
+                    <h4 className="text-md font-bold">{task.title}</h4>
+                    {typeof task.points ==="number" && (
+                        <div className="text-xs font-semibold">
+                            {task.points} pts
+                        </div>
+                    )}
+                </div>
+                <div className="text-xs text-gray-500">
+                    {formattedStartDate && <span>{formattedStartDate} - </span>}
+                    {formattedDueDate && <span>{formattedDueDate}</span>}
+                </div>
+                <p className="text-sm text-gray-600">{task.description}</p>
+                <div className="mt-4 border-t border-gray-200"/>
+                {/*Users*/}
+                <div className="mt-3 flex items-center justify-between">
+                    <div className="flex -space-x-[6px] overflow-hidden">
+                        {task.assignee && (
+                            <Image
+                                key={task.assignee.userId}
+                                src={`/${task.assignee.profilePictureUrl!}`}
+                                alt={task.assignee.username}
+                                width={30}
+                                height={30}
+                                className="h-8 w-8 rounded-full border-2 border-white object-cover"
+                            />
+                        )}
+                        {task.author && (
+                            <Image
+                                key={task.author.userId}
+                                src={`/${task.author.profilePictureUrl!}`}
+                                alt={task.author.username}
+                                width={30}
+                                height={30}
+                                className="h-8 w-8 rounded-full border-2 border-white object-cover"
+                            />
+                        )}
+                    </div>
+                    <div className=""></div>
                 </div>
             </div>
         </div>
