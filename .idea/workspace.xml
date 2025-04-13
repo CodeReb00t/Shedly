@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="9-04-2025">
+    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="12-04-2025">
+      <change afterPath="$PROJECT_DIR$/client/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tailwind.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +62,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/InterimTime/Projects 0_0/project-management-master&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/InterimTime/Projects 0_0/project_management/client&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
@@ -62,6 +77,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\InterimTime\Projects 0_0\project_management\client" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\InterimTime\Projects 0_0\project_management\client\src\app" />
       <recent name="D:\InterimTime\Projects 0_0\project_management\client\src" />
@@ -96,6 +114,11 @@
       <workItem from="1744186097067" duration="212000" />
       <workItem from="1744430688050" duration="268000" />
       <workItem from="1744449641170" duration="1320000" />
+      <workItem from="1744467194540" duration="5590000" />
+      <workItem from="1744481798659" duration="598000" />
+      <workItem from="1744517107336" duration="1980000" />
+      <workItem from="1744521488408" duration="287000" />
+      <workItem from="1744524636977" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="In Progress">
       <option name="closed" value="true" />
@@ -169,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744207097999</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="12-04-2025">
+      <option name="closed" value="true" />
+      <created>1744467276754</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744467276754</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,15 +1,15 @@
 "use client"
 
-import {useState} from "react";
+import React, {useState} from "react";
 import ProjectHeader from "@/app/projects/ProjectHeader";
 import BoardView from "@/app/projects/BoardView";
 
 type Props = {
-    params:{ id : string}
+    params: Promise<{ id: string }>
 };
 const Project = ({ params }: Props) => {
 
-    const { id } = params;
+    const { id } = React.use(params);
     const [activeTab, setActiveTab] = useState("Board");
     const [isModalNewTaskOpen, setIsModalNewTaskOpen] = useState(false)
     return (
