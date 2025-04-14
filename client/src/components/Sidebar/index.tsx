@@ -56,8 +56,6 @@ const Sidebar = () => {
     const [showPriority, setShowPriority] = useState(true)
 
     const { data: projects } = useGetProjectsQuery()
-
-
     const dispatch =useAppDispatch()
     const isSidebarCollapsed = useAppSelector((state) => state.global.isSidebarCollapsed);
     const sidebarClassNames=`fixed flex flex-col h-[100%] justify-between shadow-xl

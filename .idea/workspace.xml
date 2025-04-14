@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="12-04-2025">
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/dropdown-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/utils.ts" afterDir="false" />
+    <list default="true" id="086a384a-302b-4933-8f50-5b91d71ead6b" name="Changes" comment="13-04-2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/state/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/redux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/redux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sidebar/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +110,8 @@
       <workItem from="1744517107336" duration="1980000" />
       <workItem from="1744521488408" duration="287000" />
       <workItem from="1744524636977" duration="166000" />
+      <workItem from="1744524912445" duration="6246000" />
+      <workItem from="1744568184158" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="In Progress">
       <option name="closed" value="true" />
@@ -200,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744467276754</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="13-04-2025">
+      <option name="closed" value="true" />
+      <created>1744525356315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744525356315</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +238,8 @@
     <MESSAGE value="6-04-2025" />
     <MESSAGE value="7-04-2025" />
     <MESSAGE value="9-04-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="9-04-2025" />
+    <MESSAGE value="13-04-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-04-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
