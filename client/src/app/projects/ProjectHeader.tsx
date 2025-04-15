@@ -59,6 +59,7 @@ const ProjectHeader = ({activeTab,setActiveTab}: Props) => {
                             className="rounded-md border py-1 pl-10 pr-4 focus:outline-none"
                         />
                         <Grid3x3 className="absolute left-3 top-2 h-4 w-4 text-gray-400" />
+
                     </div>
                 </div>
             </div>
