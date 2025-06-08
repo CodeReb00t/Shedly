@@ -81,7 +81,9 @@ const TaskColumn = ({
       ref={(instance) => {
         drop(instance);
       }}
-      className={`sl:py-4 rounded-lg py-2 xl:px-2 ${isOver ? "bg-blue-100 dark:bg-neutral-950" : ""}`}
+      className={`sl:py-4 rounded-lg py-2 xl:px-2 ${
+        isOver ? "bg-blue-100 dark:bg-neutral-950" : ""
+      }`}
     >
       <div className="mb-3 flex w-full">
         <div
@@ -151,12 +153,12 @@ const Task = ({ task }: TaskProps) => {
         priority === "Urgent"
           ? "bg-red-200 text-red-700"
           : priority === "High"
-            ? "bg-yellow-200 text-yellow-700"
-            : priority === "Medium"
-              ? "bg-green-200 text-green-700"
-              : priority === "Low"
-                ? "bg-blue-200 text-blue-700"
-                : "bg-gray-200 text-gray-700"
+          ? "bg-yellow-200 text-yellow-700"
+          : priority === "Medium"
+          ? "bg-green-200 text-green-700"
+          : priority === "Low"
+          ? "bg-blue-200 text-blue-700"
+          : "bg-gray-200 text-gray-700"
       }`}
     >
       {priority}
@@ -257,7 +259,3 @@ const Task = ({ task }: TaskProps) => {
 };
 
 export default BoardView;
-
-
-
-
